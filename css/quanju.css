@@ -1,0 +1,209 @@
+
+html{color:#000;background:#FFF;}   
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,   
+fieldset,input,textarea,p,blockquote,th,td {    
+  	margin:0;   
+ 	padding:0;   
+}
+table {   
+    border-collapse:collapse;   
+ 	border-spacing:0;   
+}   
+fieldset,img {    
+ 	border:0;   
+  	vertical-align:middle; 
+  	max-width: 100%;
+}  
+body {
+	font-size: 16px; 
+	line-height: 1.5; 
+	/*font-family:'Microsoft Yahei','simsun','arial','tahoma';  /*/
+	font-family: "微软雅黑";  
+	color: #222; 
+	background: #fff; 
+} 
+address,caption,cite,code,dfn,em,strong,th,var,i {   
+    font-style:normal;   
+    font-weight:normal;   
+}   
+ol,ul {   
+   list-style:none;   
+}  
+a { 
+	text-decoration: none; 
+	color: #666; 
+	background: none 
+} 
+caption,th {   
+ 	text-align:left;   
+}   
+h1,h2,h3,h4,h5,h6 {   
+  	font-size:100%;   
+   	font-weight:normal;   
+}  
+h1,h2,h3,h4,h5,h6,li,p,span,img,button{
+	cursor:pointer;
+} 
+q:before,q:after {   
+    content:'';   
+}   
+abbr,acronym { 
+	border:0;   
+}
+input, select, textarea,button{ 
+	font-family:"微软雅黑"; 
+	background-color:#fff; 
+	margin:0; 
+	padding:0; 
+	outline:none;
+} 
+
+@font-face {
+  font-family: 'jyzx-h5';  /* project id 210635 */
+  src: url('http://at.alicdn.com/t/font_lswdmdeqou4hd7vi.eot');
+  src: url('http://at.alicdn.com/t/font_lswdmdeqou4hd7vi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_lswdmdeqou4hd7vi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_lswdmdeqou4hd7vi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_lswdmdeqou4hd7vi.svg#jyzx-h5') format('svg');
+}
+/*主页的样式*/
+.jy-iconfont{
+	font-family: 'jyzx-h5';
+}
+.up-icon::before{
+	font-size: 14px;
+	content: '\e631';
+}
+
+.down-icon::before{
+	font-size: 14px;
+	content: '\e6f5';
+}
+
+.phone-icon::before{
+	content: '\e6be';
+	color: #d43724;
+	font-size: 16px;
+}
+
+.shop-icon::before{
+	content: '\e634';
+	color: #d12f18;
+	font-size: 20px;
+}
+
+.shop1-icon::before{
+	content: '\e625';
+	color: #95c357;
+	font-size: 40px;
+}
+
+/*侧栏的样式*/
+.floor-top::before{
+	content: "\e623";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-shengtai::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-banshou::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-diqu::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-meishi::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-chajiu::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-shuiguo::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-gongyi::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-meizhuang::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-muying::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+.floor-yiliao::before{
+	content: "\e701";
+	font-size: 30px;
+	color: #ededed;
+}
+/*页脚中的*/
+.icon-baozheng::before{
+	content: "\e640";
+	color: #d32e1a;
+	font-size: 42px;
+}
+.icon-haiwai::before{
+	content: "\e87d";
+	color: #d32e1a;
+	font-size: 42px;
+}
+.icon-bianjie::before{
+	content: "\e632";
+	color: #d32e1a;
+	font-size: 42px;
+}
+.icon-shouhou::before{
+	content: "\e61e";
+	color: #d32e1a;
+	font-size: 42px;
+}
+.icon-kefu::before{
+	content: "\e63f";
+	font-size: 18px;
+}
+.footerTop::before{
+	content: "\e623";
+	color: #ededed;
+}
+
+/*集彩页的登录*/
+.icon-one::before{
+	content: "\e66d";
+}
+.icon-two::before{
+	content: "\e646";
+}
+.icon-three::before{
+	content: "\e616";
+}
+.icon-four::before{
+	content: "\e628";
+}
+.icon-five::before{
+	content: "\e63f";
+}
+
+.icon-adime::before{
+	content: "\e638";
+}
+.icon-pswd::before{
+	content: "\e636";
+}
